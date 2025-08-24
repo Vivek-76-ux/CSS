@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background-color: brown;
+    border: 3px solid black;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: 30px 1fr 30px;
+    gap: 5px;
+
+}
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    /* height: 80px; */
+    /* width: 80px; */
+}
+#box1, #box4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    /* used for shorthand notation */
+    /* grid-area: 1/2/1/4; */
+}

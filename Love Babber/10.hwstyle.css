@@ -1,0 +1,28 @@
+#id{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+.box1{
+    position: relative;
+    top: 180px;
+}
+.box2{
+    position: relative;
+    bottom: 18px;
+}
+.box3{
+    position: relative;
+    left: 150px;
+    bottom: 35px;
+}
+.box4{
+    position: relative;
+    left: 150px;
+    top: 125px;
+}
+.box5{
+    position: relative;
+    left: 70px;
+    top: 15px;
+}

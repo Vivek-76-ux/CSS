@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            padding: 10px;
+            background-color: orange;
+            margin: 10px;
+            box-sizing: border-box;
+            
+        }
+        #orange{
+            background-color:#ffda33;
+        }
+        #white{
+            background-color: rgb(191, 95, 95);
+        }
+        #green{
+            background-color: rgba(62, 173, 62, 0.447);
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="orange">A</div>
+    <div class="box" id="white">B</div>
+    <div class="box" id="green">C</div>
+</body>
+</html>
