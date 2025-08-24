@@ -1,0 +1,47 @@
+.container{
+    border: 2px solid green;
+    background-color: yellow;
+    height: 500px;
+    width: 100%;
+}
+.box{
+    border: 2px solid black;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+
+    animation-name: vivek;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    /* animation-direction: reverse; */
+    animation-direction: alternate;
+    /* animation-fill-mode: backwards; */
+}
+
+/* @keyframes vivek {
+    from{
+        width: 200px;
+    }
+
+    to{
+        width: 500px;
+    }
+    
+} */
+
+@keyframes vivek {
+    0%{
+        width: 10%;
+        background-color: green;
+    }
+    50%{
+        width: 50%;
+        background-color: white;
+    }
+    100%{
+        width: 100%;
+        background-color: orangered;
+    }
+}
