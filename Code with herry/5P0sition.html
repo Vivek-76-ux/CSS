@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* *{
+             padding: 0; 
+            margin: 0;
+        } */
+li{
+    /* display: inline; */
+    list-style:square outside url('orange.png');
+}
+ul{
+    background-color: red;
+}
+header{
+    background-color: green;
+    color: white;
+    height:60px;
+}
+p{
+text-align: center;
+border: 2px solid black;
+
+}
+.container{
+    background-color: aqua;
+    height: 50vh;
+    width: 50vw;
+    margin:auto;
+    border:2px solid red;
+    padding:0px 30px;
+}
+.box{
+    background-color: orange;
+    color:black;
+    height: 150px;
+    width: 144px;
+    border: 2px solid green;
+    /* position:relative; */
+    position:absolute;
+    bottom:400px;
+    /* top:400px; */
+    left:500px;
+}
+.box2{
+    background-color:white;
+    color:black;
+    height: 150px;
+    width: 144px;
+    border: 2px solid rgb(128, 21, 0);
+    top:400px;
+    left:50px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ut eligendi qui.</p>
+        <div class="box">Like</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur.</div>
+    </div>
+    <div class="bullets">
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cat</li>
+            <li>Dog</li>
+        </ul>
+    </div>
+</body>
+</html>

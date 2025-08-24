@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    .box1{
+        background:greenyellow;
+        margin:30px 20px;
+        height:144px;
+        width:1033px;
+        border:2px solid black;
+    }
+    .box2{
+        background:aqua; 
+        /* margin:30px 20px; */
+        height:20;
+        width:100%;
+        padding:6px;
+        border:5px solid grey;
+        box-sizing:border-box;
+    }
+}
+    </style>
+</head>
+<body>
+   <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, tempora deleniti cumque labore culpa aut eos corporis modi maxime, cum velit optio aliquam libero quia, illum excepturi odit autem cupiditate? Esse hic sint dolor.</div>
+   <div class="box2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex iure aliquam nihil temporibus natus tempora quisquam eos sapiente repellat alias beatae, eaque quaerat perferendis consequatur? Debitis excepturi dignissimos, est numquam placeat atque aspernatur repudiandae enim dolore, iusto soluta accusantium. Ratione ab molestias pariatur!</div>
+</body>
+</html>
